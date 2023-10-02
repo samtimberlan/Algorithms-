@@ -1,0 +1,13 @@
+walmart
+Benz
+Boeing
+Apple
+Microsoft
+Amazon
+Google
+Palantir
+IBM
+LinkedIn
+Netflix
+
+Stripe
