@@ -64,13 +64,22 @@ def merge_sort(unsorted_list: List[int]) -> List[int]:
             right_pointer += 1
     return result_list
 
-# Using built-in sort methods
-print(" ")
-print("----------")
 
 l = [5,343,2,134,76,8]
 m = [32,21,5,65]
 o = ["zebra", "fat", "apply", "lion", "ink"]
+
+print(" ")
+print("----------")
+
+print("merge sort", merge_sort(l))
+
+print("----------")
+print(" ")
+
+# Using built-in sort methods
+print(" ")
+print("----------")
 
 l.sort() # sorts the list in place
 n = sorted(m) # sorts the list and returns result in new list
